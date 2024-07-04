@@ -1,5 +1,5 @@
-<div>
-    <div class="col-md-8 mb-2">
+<div class="m-auto">
+    <div class="col-md-8 mb-2 m-auto">
         <div class="card">
             <div class="card-body">
                 @if(session()->has('success'))
@@ -20,7 +20,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 m-auto">
         <div class="card">
             <div class="card-body">
                 <div class="table-responsive">
@@ -61,6 +61,8 @@
             </div>
         </div>
     </div>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     {{-- <script>
         function deleteCategory(id){
             if(confirm("Are you sure to delete this record?"))
